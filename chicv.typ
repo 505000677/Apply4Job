@@ -65,7 +65,7 @@
   show heading.where(
     level: 2
   ): it => text(
-    size: 12pt,
+    size: 14pt,
     font: the-font,
     weight: "bold",
     block(
@@ -74,7 +74,7 @@
   )
   set list(indent: 0pt)
   set text(
-    size: 9pt,
+    size: 10pt,
     font: the-font
   )
 
