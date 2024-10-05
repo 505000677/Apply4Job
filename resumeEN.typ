@@ -24,14 +24,14 @@
 
 == Internship Experience
 #cventry(
-  tl: [Shaanxi Building Material Technology Group Co., Ltd., Xi'an, China (Information Department)],
+  tl: [*Shaanxi Building Material Technology Group Co., Ltd.,* Xi'an, China (Information Department)],
   tr: [2021/03 - 2021/07],
 )[
 - Assisted the Information Department head with the development and maintenance of the company's mini-program and maintained network security.
 ]
 
 #cventry(
-  tl: [Huaqing College of Xi'an University of Architecture and Technology, Xi'an, China (Teaching Assistant in Advanced Mathematics)],
+  tl: [*Huaqing College of Xi'an University of Architecture and Technology,* Xi'an, China (Teaching Assistant in Advanced Mathematics)],
   tr: [2020/08 - 2021/01],
 )[
 - Served as a teaching assistant for Professor Di Ming in Advanced Mathematics, grading assignments, answering common calculus questions, and conducting monthly sessions in English.
@@ -40,7 +40,7 @@
 == Project Experience
 
 #cventry(
-  tl: [Cloud Computing - Movie Recommendation System],
+  tl: [*Cloud Computing - Movie Recommendation System*],
   tr: [2024/01 -- 2024/05]
 )[
 - Recommended movies to users based on input movie titles, providing information such as movie titles and release years. The project used multiple GCP services including Cloud Logging, Cloud Build, Cloud Run, and Compute Engine.
@@ -58,7 +58,7 @@
 ]
 */
 #cventry(
-  tl: [Movie Genre Classification and Recommendation System Based on Movie Summaries],
+  tl: [*Movie Genre Classification and Recommendation System Based on Movie Summaries*],
   tr: [2024/01 - 2024/05]
 )[
 - Objective: Used data mining techniques to analyze movie summaries, extract key themes, narratives, and elements for accurate movie genre classification, and recommend movies based on user preferences.
@@ -71,7 +71,7 @@
 ]
 
 #cventry(
-  tl: [PittRCDB Database Management System],
+  tl: [*PittRCDB Database Management System*],
   tr: [2024/01 - 2024/05]
 )[
 - Project Objective: Supported OLTP and OLAP workloads, implementing row-column storage for improved execution efficiency.
@@ -83,7 +83,7 @@
 ]
 
 #cventry(
-  tl: [Memory Allocator in C Language],
+  tl: [*Memory Allocator in C Language*],
   tr: [2022/05 - 2022/08]
 )[
 - Implemented fine-grained memory management using an implicit doubly-linked list to improve the efficiency of memory allocation and deallocation.
