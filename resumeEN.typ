@@ -4,7 +4,7 @@
 
 = Wang Yuanxiang
 
-#fa[#envelope] 15620119508@163.com |
+#fa[#envelope] #text("15620119508@163.com") |
 #fa[#github] #link("https://github.com/505000677")[github.com/505000677] |
 
 == Education Background
@@ -70,26 +70,43 @@
   - Integrated the best-performing models into the recommendation system for personalized recommendations.
 ]
 
+// #cventry(
+//   tl: [*PittRCDB Database Management System*],
+//   tr: [2024/01 - 2024/05]
+// )[
+// - Project Objective: Supported OLTP and OLAP workloads, implementing row-column storage for improved execution efficiency.
+// - Core Components:
+//   - Transaction Manager: Responsible for reading and recording transaction operations, ensuring transaction order and consistency.
+//   - Scheduler: Managed concurrent transactions to optimize system performance and response time.
+//   - Data Manager: Handled data storage, management, and recovery, ensuring correct recovery in case of failure.
+// - System Functionality: Supported multiple concurrent transactions, ensuring data consistency and isolation. Provided data recovery to ensure atomicity and durability during failures.
+// ]
+
+// #cventry(
+//   tl: [*Memory Allocator in C Language*],
+//   tr: [2022/05 - 2022/08]
+// )[
+// - Implemented fine-grained memory management using an implicit doubly-linked list to improve the efficiency of memory allocation and deallocation.
+// - Automatically merged adjacent free memory blocks to optimize continuous memory space usage, avoiding fragmentation.
+// - Optimized `realloc` for cases where the user requests memory reduction.
+// - Utilized a heuristic strategy for selecting free memory blocks based on practical usage scenarios, achieving higher efficiency than first-fit and best-fit strategies.
+// ]
+== Relevant Coursework
 #cventry(
-  tl: [*PittRCDB Database Management System*],
-  tr: [2024/01 - 2024/05]
+  tl: [*CMPEN 270: Digital Design: Theory and Practice*],
+  tr: [2020/01 - 2020/05]
 )[
-- Project Objective: Supported OLTP and OLAP workloads, implementing row-column storage for improved execution efficiency.
-- Core Components:
-  - Transaction Manager: Responsible for reading and recording transaction operations, ensuring transaction order and consistency.
-  - Scheduler: Managed concurrent transactions to optimize system performance and response time.
-  - Data Manager: Handled data storage, management, and recovery, ensuring correct recovery in case of failure.
-- System Functionality: Supported multiple concurrent transactions, ensuring data consistency and isolation. Provided data recovery to ensure atomicity and durability during failures.
+- Gained hands-on experience in digital system design, including combinational and sequential circuits.
+- Designed and debugged digital circuits using Hardware Description Languages (HDL), simulation tools, and laboratory instruments (e.g., oscilloscopes, logic analyzers).
+- Worked on design optimization, trade-off analysis, and implementation of components such as multiplexers, counters, and registers.
 ]
 
 #cventry(
-  tl: [*Memory Allocator in C Language*],
-  tr: [2022/05 - 2022/08]
+  tl: [*CMPSC 331: Computer Organization and Design*],
+  tr: [2022/01 - 2022/105]
 )[
-- Implemented fine-grained memory management using an implicit doubly-linked list to improve the efficiency of memory allocation and deallocation.
-- Automatically merged adjacent free memory blocks to optimize continuous memory space usage, avoiding fragmentation.
-- Optimized `realloc` for cases where the user requests memory reduction.
-- Utilized a heuristic strategy for selecting free memory blocks based on practical usage scenarios, achieving higher efficiency than first-fit and best-fit strategies.
+- Developed in-depth understanding of computer architecture, including data paths, control paths, memory systems, and I/O systems.
+- Designed hardware components using VHDL/Verilog and performed assembly language programming for architectural simulation.
+- Explored relationships between instruction set design, addressing modes, and their impact on computer architecture.
 ]
-
 #align(right, text(fill: gray)[Last Updated on #today()])
